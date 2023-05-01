@@ -43,9 +43,6 @@ public class LoopsPractice {
         System.out.println("Hello");
 
 
-
-
-
     }
 
 
