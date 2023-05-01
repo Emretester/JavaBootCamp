@@ -63,11 +63,35 @@ Char Sequences:
 				a = "Cydeo"
 				b = new String("Cydeo")
 
+				methods: equals, equalsIgnoreCase, substring, lower/upperCase, charAt, split, toCharArray, replace, indexOf....
+
 
 		StringBuilder: mutable version of char sequences
 
-		StringBuffer: mutable version of char sequences
+		StringBuffer: mutable version of char sequences, synchronized. slow
 
+
+
+6. Loops: for & while. repeated actions
+
+		for: if the number of repetition is known (fixed)
+
+				for(init; Condition; ++/--){
+						code fargments that NEED to be repeated
+				}
+
+		while: if the number of repetition is unknown (not fixed)
+
+				while(Condition){
+					code fargments that NEED to be repeated
+				}
+		
+
+		break: terminates/exits the loop/switch
+
+		continue: skips the current iteration
+
+		return: exits the method
 
 
 
