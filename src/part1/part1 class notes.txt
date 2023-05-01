@@ -33,6 +33,44 @@ Review Topics:
         30. Maps
 
 
+Variable:
+	DataType var
+
+
+1. Primitive DataTypes:
+	byte, short, int, long, float, double
+	char, boolean
+
+
+Non-Primitive DataTypes: String, Wrapper classes, classes, interfaces .....
+
+
+2. primitive type casting:
+		
+		implicit: smaller primitive type to larger primitive type
+
+		explicit: larger primitive type to smaller primitive type
+
+
+3. Wrapper classes: used for converting primitives to objects
+
+
+
+Char Sequences:
+		
+		String: immutable (unchangable) version of char sequences
+
+				a = "Cydeo"
+				b = new String("Cydeo")
+
+
+		StringBuilder: mutable version of char sequences
+
+		StringBuffer: mutable version of char sequences
+
+
+
+
 
 
 
