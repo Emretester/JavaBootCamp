@@ -110,7 +110,60 @@ Char Sequences:
 
 
 
-9. Custom Methods: 
+9. Custom Methods: function that can perform a task
+				  grouping a series of code fragments
+				  improves reusability
+				  less codes
+				  maintainability
+				  readable
+
+				  AM static  ReturnType methodName(parameter){
+				  	codes that can perform the desired task
+				  }
+
+
+10. Method overloading: multiple methods having the same name in same class
+						
+						Parameters MUST be different
+
+
+
+11. Constructor: used for creating objects
+				 every class have a constructor
+				 gets executed when the object is created
+				 can be used for initializing the instances
+
+
+			 In my framework:
+
+			 	BasePage:
+
+			 		public BasePage(){
+			 			PageFactory.initElements(driver, this);
+			 		}
+
+
+
+
+			 	HomePage extends BasePage
+			 	SecondPage extends BasePage
+			 	...
+
+		 			@FindBy ===> driver.findElement
+
+
+
+				 this()
+				 super()
+
+
+			  Driver:
+
+			  	private Driver(){
+
+			  	}
+
+
 
 
 
