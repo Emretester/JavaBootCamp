@@ -139,10 +139,8 @@ Char Sequences:
 			 	BasePage:
 
 			 		public BasePage(){
-			 			PageFactory.initElements(driver, this);
+			 			PageFactory.initElements(Driver.getDriver, this);
 			 		}
-
-
 
 
 			 	HomePage extends BasePage
@@ -177,7 +175,57 @@ Char Sequences:
 
 
 
-come back at 3:15 pm
+13. Static vs Instance
+	
+		instance:  Multiple copies. belongs to the objects
+
+		static:	   one copy ONLY. static belongs to the class
+
+
+14. Import Statements:
+		
+		import page.class;
+
+		import static page.class.member;
+
+
+			assertTrue()
+			when()... then()...
+
+
+15. Access Modifiers:
+		
+		private < default < protected < public
+
+
+
+16. OOP Encapsulations: Object hiding its data. 
+						Make the instance variables private
+						generate public getter/setter (instance) methods
+
+						TO HAVE COMPLETE CONTROL OF INSTANCE VARIABLES
+
+						getter: read ONLY
+								Has no paramerters
+
+						setter: Write ONLY
+								Has one parameter
+
+
+			My framework:
+				POJO
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
