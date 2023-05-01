@@ -1,6 +1,8 @@
 package part1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
@@ -49,6 +51,20 @@ public class ArraysPractice {
 
         System.out.println(Arrays.toString(result));
 
+
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4));
+
+        list = list.stream().distinct().collect(Collectors.toList());
+
+        System.out.println(list);
+
+        System.out.println("------------------------------------------");
+
+        int[] n = {10, 20, 30, 40, 50};
+
+        for(int each : n){
+            System.out.println(each);
+        }
 
 
 

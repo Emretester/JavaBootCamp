@@ -95,6 +95,23 @@ Char Sequences:
 
 
 
+7. Array: Data Structure
+		  Size is fixed.
+		  Faster
+		  Multi-dimensional
+		  Supports primitives & non primitives
+		  Index numbers
+
+
+8. for each loop: ONLY used for the data structures
+				  No index
+				  iteration order is fixed
+				  number of iteration is fixed
+
+
+
+
+
 
 
 
