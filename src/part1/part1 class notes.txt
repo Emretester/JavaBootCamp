@@ -165,10 +165,19 @@ Char Sequences:
 
 
 
+12. Class & Objects: 
+		
+		class: A template/blueprint or a set of instructions of objects. where all objects came from. no memory allocated for classes
+
+		object: an instance of a class. each object has its own memory
+
+
+		formula is a class
+		medicine is an object
 
 
 
-
+come back at 3:15 pm
 
 
 
