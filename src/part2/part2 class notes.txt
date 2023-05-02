@@ -177,6 +177,122 @@ Review Topics:
 
 
 
+24. Exceptions: 
+        
+        Error: Due to the system issues
+
+        Exception: Issues within the source code
+
+                checked exceptions: compile time exception
+
+                unchecked exception: runtime exceptions
+
+
+        Exceptiosn that i have faced:
+                NullpointerException
+                TimeOutException
+                NoSuchElementException
+                StaleElementException
+                ClassCastException
+                WebDriverException
+                ...
+
+
+25. Exception Handling
+        checked exception:
+                try & catch
+                throws
+
+        unchecked exception:
+                try & catch
+
+
+        try & catch:
+
+                try{
+                   exception code
+                }catch(ExceptionType e){
+                    printStackTrace()
+                }finally{
+
+                }
+
+
+        throws: within signature of methods.
+
+
+
+ 26. final vs finally vs finalize:
+
+        final: keyword
+
+        finally: block
+
+        finalize: method
+
+
+27. garbage collection & garbage collector:
+
+        garbage collection: collection of unrefrenced objects
+
+        garbage collector: process of removing the objects that are eligible for gabrage collection
+
+
+
+        driver = new ChromeDriver()
+
+        driver = new FireFoxDriver()
+
+        driver = null
+
+
+
+28. Collections: size is dynamic
+                 only supports non-primitives
+                 Ready methods
+
+
+                 List: allow duplicates, has index. 
+
+                        ArrayList: faster (retriving). array based class.
+
+                        LinkedList: node based class. removing & inserting tehe elemnbt is faster
+
+                        Vector: Syncrhonized
+
+                        stack: Syncrhonized . LIFO
+
+
+
+                        In my fraemwork:
+                                List of WebElements --> findElements
+                                list of maps --> List<Map<String, Object>>
+
+
+
+                 Set: does not allow duplicates, deos not have index
+
+                        HashSet: faster. random order
+
+                        linkedHashSet: insertion order
+
+                        TreeSet: sorted order
+
+
+                        In my fraemwork:
+                                window handlings--> getwindowHandles()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
