@@ -15,3 +15,73 @@ Review Topics:
         28. Collections: List, Set, Queue
         29. Iterable & Iterator
         30. Maps
+
+
+
+17. OOP Inheritance: Is A relation (super/sub  or  parent/child)
+                     
+                     less codes
+                     reusability
+                     organized
+                     less memory
+                     Centralize structure
+                     easy to maintain
+
+
+             sub (child) class: inherits all the variabels and methods from the super class
+
+             super (parent) class: does not inherit anything. ONLY contains common features of all sub classes
+
+
+             extends
+             implements
+
+             this()
+             super()
+
+        In my framework:
+
+                BasePage: parent of all the pages classes  (Junit)
+
+                        common web elements
+
+                        public BasePage(){
+                                initElement
+                        }
+
+
+
+
+                TestBase: parent of all the test classes for @Test methods  (TestNG)
+
+                        @BeforeMethod{
+                                open browser
+                                maxmize browser
+                                implicitwait
+                                nevigate to URL
+                        }
+
+                        @AfterMethod{
+                                close browser
+                        }
+
+
+
+                TestClass1 extends TestBase
+
+                TestClass2 extends TestBase
+
+                ....
+
+
+
+
+
+
+
+
+
+
+
+
+

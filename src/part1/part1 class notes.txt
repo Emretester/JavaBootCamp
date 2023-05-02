@@ -192,7 +192,7 @@ Char Sequences:
 						TO HAVE COMPLETE CONTROL OF INSTANCE VARIABLES
 
 						getter: read ONLY
-								Has no paramerters
+								Has no parameters
 
 						setter: Write ONLY
 								Has one parameter
