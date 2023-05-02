@@ -137,9 +137,50 @@ Review Topics:
                 
                         Parent type (class/interface) being reference to child type
 
+                        Only the Reference type' variable and methods can be accessed
 
 
-come back 1:40 pm
+                        In my framework:
+
+                                ChromeDriver chromeDriver = = new ChromeDriver()
+                                            chromeDriver.takeScreenShot()
+                                            chomeDriver.executeScript()
+                                            ...
+
+                                FireFoxDriver firefoxDriver
+
+                                ....
+                                           ||
+                                           ||
+
+                                WebDriver driver = new ChromeDriver()
+
+
+                        Map map = new HashMap
+
+                        Collection
+
+
+
+23. Reference Type Castings: When there is Inheritance relations between the types
+        
+        upcasting: smaller reference type to larger (implicitly done)
+
+        downcasting: larger reference type to smaller
+
+
+        WebDriver driver = new FireFoxDriver();
+
+        ( (TakeScreenShot)driver).takeScreenShot()
+
+        ( (JavaScriptExecuter)driver).executeScript()
+
+
+
+
+
+
+
 
 
 
