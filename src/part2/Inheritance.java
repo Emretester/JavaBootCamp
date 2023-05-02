@@ -12,10 +12,24 @@ class A{
         System.out.println("MethodA");
     }
 
+    public void method1(){
+        System.out.println("Method1");
+    }
+
+    static double pi =3.14;
+
 }
 
 
 class B extends A{
+
+    public void method1(){
+
+    }
+
+    public void methodA(){
+        System.out.println("Method AA");
+    }
 
     public B(double a){
         super(10);
@@ -54,6 +68,14 @@ public class Inheritance {
         obj2.methodA();
         obj2.methodB();
         obj2.methodC();
+
+
+        method1();
+
+    }
+
+
+    public static void method1(){
 
     }
 

@@ -39,6 +39,8 @@ Review Topics:
              this()
              super()
 
+             super.
+
         In my framework:
 
                 BasePage: parent of all the pages classes  (Junit)
@@ -75,6 +77,69 @@ Review Topics:
 
 
 
+18. Method Overriding: giving different implementatiosn to the methods
+                        Must happen in sub class
+                        Returntype, parameters, method name must be same
+                        Access modifier needs to be same of more visible
+
+                        private, static, final methods can not be overriden
+
+
+                        toString()
+
+                        get()
+                        takeScreenshot()
+                        executeScript()
+
+
+19. Final keyword: unchangable
+        
+        methods: can not be overriden
+
+        variables: can not be re-assigned
+
+        class: can not be inherited
+
+
+
+20 & 21. OOP Abstraction: hiding the implementation
+                     focus on essentials, not to worry about small details
+
+                     abstract methods: method without the body
+                                       implementation of the method will be given when its overriden
+
+                     2 ways:
+                        1. Abstract class: meant to be a parent class (for common feature of all classes)
+                                                can not create object
+
+
+                        2. Interface:  used for providing additional methods
+                                        implements
+
+                                        can not create object
+
+                                        variable: variables are static and final by default
+
+                                        methods: abstract, static,  default methods
+
+
+                In my framework: 
+
+                        abstarct class: BasePage
+
+                        interface: 
+                                Map, List, Set....
+                                WebDriver, JavScriptExecuter....
+
+
+
+22. OOP Polymorphism: object taking on Multiple forms
+                
+                        Parent type (class/interface) being reference to child type
+
+
+
+come back 1:40 pm
 
 
 
